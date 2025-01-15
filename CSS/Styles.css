@@ -1,3 +1,41 @@
-.okay{
-    background-color: brown;
+/* For Fonts */
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* First Navigation Bar */
+.first-navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 24px;
+    align-items: center;
+}
+.first-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #0E0E0E;
+}
+.sign-in-button{
+    width: 108px;
+    height: 45px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    opacity: 100%;
+    color: #006A50;
+    border-color: #006A50;
+}
+
+/* First Banner */
+.first-banner{
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    margin-left: 160px;
+    margin-right: 160px;
 }
