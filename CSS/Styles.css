@@ -32,10 +32,65 @@
 
 /* First Banner */
 .first-banner{
-    width: 1280px;
-    height: 560px;
+    width: 1200px;
+    height: 550px;
     border-radius: 24px;
     background-color: #C6E4D6;
+    margin-right: 190px;
     margin-left: 160px;
-    margin-right: 160px;
+    /* margin: auto; */
 }
+.heading{
+    font-size: medium;
+    font-weight: 24px;
+    color: #0E0E0E;
+    width: 662px;
+    height: 29px;
+}
+.second-heading{
+    font-size: 50px;
+    color: #0E0E0E;
+}
+.first-banner-section{
+   display: flex;
+   justify-content:center;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-top:80px;
+   padding-bottom: 80px;
+   /* margin-top: 117px; */
+   margin-bottom: 117px;
+   margin-left: 58px;
+}
+.first-banner-button{
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    width: 260px;
+    height: 53px;
+    font-weight: semiBold;
+    font-size: 18px;
+}
+/* Second page starting */
+.second-page-heading{
+    font-weight: bold;
+    font-size: 37px;
+}
+.second-page-parent{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+    /* Third page starting */
+.one{
+   border-radius: 8px;
+   border-color: #0E0E0E;
+}
+.third-page-heading{
+    font-weight: bold;
+    font-size: 45px;
+}
+.first-box{
+    background-color: red;
+}
+/* Background color not appearing third page box */
