@@ -80,17 +80,97 @@
     display: flex;
     justify-content: space-around;
     gap: 30px;
-
-    /* Third page starting */
-.one{
-   border-radius: 8px;
-   border-color: #0E0E0E;
+    
 }
-.third-page-heading{
+.third-page-header{
     font-weight: bold;
-    font-size: 45px;
+    font-size: 37px;
 }
-.first-box{
-    background-color: red;
+.third-page-paragraph{
+    padding-top: 18px;
+    font-weight: regular;
+    font-size: 16px;
 }
-/* Background color not appearing third page box */
+/* Third page box one */
+.box-one{
+    width: 400px;
+    height: 320px;
+    background-color:#C0D8FB;
+    border-radius: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+.box-one-btn{
+    width: 122px;
+    height: 41px;
+    background-color: #5490F5 ;
+    color: white;
+    
+}
+
+/* third page box two */
+.box-two{
+    width: 400px;
+    height: 320px;
+    background-color:#A9E7CA ;
+    border-radius: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+.box-two-btn{
+    width: 122px;
+    height: 41px;
+    background-color: #09A15C ;
+    color: white;
+    
+}
+/* third page box three */
+.box-three{
+    width: 400px;
+    height: 320px;
+    background-color:#FAF2E1 ;
+    border-radius: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+.box-three-btn{
+    width: 122px;
+    height: 41px;
+    background-color: #FFC239 ;
+    color: white;
+}
+.third-page-box-parent{
+        display: flex;
+        justify-content: space-around;
+        gap: 24px;
+}
+.sub-heading-yunus{
+    color:#505050 ;
+    font-weight: regular;
+    font-size: 16px;
+}
+.DR-younus-paragraph{
+    width: 1280px;
+    height: 256px;
+    border: gray;
+    
+}
+
